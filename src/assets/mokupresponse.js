@@ -1,0 +1,30 @@
+const weather = {
+  coord: { lon: -0.089, lat: 51.5182 },
+  weather: [
+    { id: 803, main: "Clouds", description: "broken clouds", icon: "04d" },
+  ],
+  base: "stations",
+  main: {
+    temp: 300.19,
+    feels_like: 299.99,
+    temp_min: 296.6,
+    temp_max: 301.43,
+    pressure: 1016,
+    humidity: 39,
+  },
+  visibility: 10000,
+  wind: { speed: 2.57, deg: 30 },
+  clouds: { all: 64 },
+  dt: 1687449736,
+  sys: {
+    type: 2,
+    id: 2075535,
+    country: "GB",
+    sunrise: 1687405381,
+    sunset: 1687465287,
+  },
+  timezone: 3600,
+  id: 6690593,
+  name: "Barbican",
+  cod: 200,
+};

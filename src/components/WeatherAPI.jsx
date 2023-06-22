@@ -1,6 +1,7 @@
 import React, { useEffect,useState } from 'react'
 import { weather_API_KEY,weatherURL } from './URL'
 import axios from "axios";
+import WeatherCard from './WeatherCard';
 
 const WeatherAPI = ({lon,lat}) => {
 
@@ -21,9 +22,7 @@ const WeatherAPI = ({lon,lat}) => {
 
     }, [lon,lat])
 
-  return (
-    <div>{dayWeather}</div>
-  )
+  return <WeatherCard weather={dayWeather}/>
 }
 
 export default WeatherAPI

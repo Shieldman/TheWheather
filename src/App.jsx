@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
         </main>
-    </BrowserRouter>
+      </BrowserRouter>
     </div>
   )
 }
