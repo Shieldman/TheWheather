@@ -1,5 +1,8 @@
 .weather-card{
     border: 1px solid black;
-    width: 150px;
-    height: 300px;
+}
+
+.weather-icon{
+    width: 100px;
+    height: 100px;
 }
