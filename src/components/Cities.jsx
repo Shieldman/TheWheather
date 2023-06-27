@@ -1,41 +1,41 @@
 export const cities = [{
     name: 'Barcelona',
-    longitude: 41.389261461257675, 
-    latitude: 2.168069373489793,
+    longitude: 2.168069373489793, 
+    latitude: 41.389261461257675,
 },
 {
     name: 'London',
-    longitude: 51.508074685444925, 
-    latitude: -0.11917010053826979,
+    longitude: -0.11917010053826979,
+    latitude: 51.508074685444925, 
 },
 {
     name: 'Berlin',
-    longitude: 52.520101670204355, 
-    latitude: 13.40480948792249 ,
+    longitude:  13.40480948792249 ,
+    latitude: 52.520101670204355,
 },
 {
     name: 'Madrid',
-    longitude: 40.420588868631555, 
-    latitude: -3.6871015340491553,
+    longitude:  -3.6871015340491553,
+    latitude: 40.420588868631555,
 },
 {
     name: 'Dubai',
-    longitude: 25.217375991284328, 
-    latitude: 55.27412403936145 ,
+    longitude:  55.27412403936145 ,
+    latitude: 25.217375991284328,
 },
 {
     name: 'Buenos Aires',
-    longitude: -34.60874521901343,  
-    latitude: -58.44424018554203,
+    longitude:   -58.44424018554203,
+    latitude: -34.60874521901343,
 },
 {
     name: 'Rome',
-    longitude: 41.898917471992135, 
-    latitude: 12.491977779805225,
+    longitude:  12.491977779805225,
+    latitude:41.898917471992135, 
 },
 {
     name: 'Oslo',
-    longitude: 59.91613218229977, 
-    latitude: 10.754209494679145,
+    longitude:  10.754209494679145,
+    latitude: 59.91613218229977,
 }
 ]

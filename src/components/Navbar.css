@@ -1,0 +1,10 @@
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.navigation-bar>li {
+    list-style: none;
+}

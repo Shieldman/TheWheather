@@ -11,7 +11,6 @@ const Home = () => {
       setLatitude(position.coords.latitude);
       setLongitude(position.coords.longitude);
     })
-    console.log(latitude, longitude);
   },[latitude,longitude])
 
   return (

@@ -51,7 +51,6 @@ const WeatherAPI = ({latitude,longitude}) => {
 
     getWeatherInLocation().then((ev) => {
         setWeather(constructWeather(ev.data))
-        console.log(ev.data);
     });
   }, [latitude,longitude]);
 
