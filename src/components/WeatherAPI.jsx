@@ -52,7 +52,7 @@ const WeatherAPI = ({latitude,longitude}) => {
     getWeatherInLocation().then((ev) => {
         setWeather(constructWeather(ev.data))
     });
-  }, [latitude,longitude,weather]);
+  }, [latitude,longitude]);
 
   return <div className="weather-card">
       {weather?weather:<h2>Loading...</h2>}
