@@ -6,3 +6,19 @@
     width: 100px;
     height: 100px;
 }
+
+.slots-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px 20px;
+    row-gap: 10px;
+
+}
+
+.slot-forecast {
+    width: 200px;
+    background-color: azure;
+    border: 0.5px solid grey;
+}

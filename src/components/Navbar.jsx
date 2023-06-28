@@ -9,6 +9,7 @@ const Navbar = () => {
         <li className='navigation-button'><NavLink to='/'>Home</NavLink></li>
         <li className='navigation-button'><NavLink to='/cities'>Specific city</NavLink></li>
         <li className='navigation-button'><NavLink to='/locations'> - Current Location 5Days -</NavLink></li>
+        <li className='navigation-button'><NavLink to='/cities-five-days'> - Specific city 5Days -</NavLink></li>
       </ul>
     </nav>
   )

@@ -10,7 +10,8 @@ const Locations = () => {
     navigator.geolocation.getCurrentPosition((position) => {
       setLatitude(position.coords.latitude);
       setLongitude(position.coords.longitude);
-    })
+    },
+    ()=>{window.alert('Please give permisions for your location')})
   },[latitude,longitude])
 
   return (

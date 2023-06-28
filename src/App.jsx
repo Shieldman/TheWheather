@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Locations from "./pages/LocationFiveDays";
 import Navbar from "./components/Navbar";
 import DifferentLocation from "./pages/DifferentLocation"
+import DifferentLocation5Days from "./pages/DifferentLocation5Days";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/locations" element={<Locations />} />
             <Route path="/cities" element={<DifferentLocation />}></Route>
+            <Route path="/cities-five-days" element={<DifferentLocation5Days />}></Route>
           </Routes>
         </main>
       </BrowserRouter>
